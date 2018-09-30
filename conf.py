@@ -21,7 +21,7 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-
+html_theme = "sphinx_rtd_theme"
 # -- Project information -----------------------------------------------------
 
 project = 'Sython'
@@ -29,7 +29,7 @@ copyright = '2018, LavaPower'
 author = 'LavaPower'
 
 # The short X.Y version
-version = ''
+version = '0.0'
 # The full version, including alpha/beta/rc tags
 release = 'INDEV'
 
