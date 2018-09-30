@@ -1,5 +1,5 @@
-Informations
-============
+FAQ
+===
 
 Coming Soon   
 

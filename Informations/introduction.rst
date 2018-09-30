@@ -1,4 +1,4 @@
-Informations
+Introduction
 ============
 
 Coming Soon   
