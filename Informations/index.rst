@@ -3,9 +3,10 @@ Général
 
 .. toctree::
    :maxdepth: 1
-   :name: toc-about
+   :name: toc-informations
 
-   informations
+   introduction
+   faq
    
 
 .. history

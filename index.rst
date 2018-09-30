@@ -20,4 +20,4 @@ Sommaire :
    :caption: General
    :name: sec-general
 
-   General/index
+   Informations/index
