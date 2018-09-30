@@ -3,18 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sython's documentation!
-==================================
+Sython - Docs
+=============
+
+Bienvenue sur la documentation du langage Sython.
+
+Vous pouvez accéder rapidement aux différences informations via la barre de gauche via le sommaire de la page.
+
+.. note:: Il est important de ce rappeler que Sython est un projet OpenSource et développé par des personnes non professionnel.
+          Vous pouvez, vous aussi, y participer via le github.
+
+Sommaire :
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :maxdepth: 1
+   :caption: General
+   :name: sec-general
