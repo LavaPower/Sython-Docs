@@ -19,3 +19,5 @@ Sommaire :
    :maxdepth: 1
    :caption: General
    :name: sec-general
+
+   General/index
