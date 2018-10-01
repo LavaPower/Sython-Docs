@@ -10,13 +10,13 @@ Sython est exempté de concept difficile et d'une syntaxe symbolique. Le but ét
 De plus il est important de comprendre que Sython va vous apprendre à être rigoureux dans vos syntaxes.
 Dans le sens où :
 
-.. code-block::
+.. code-block::python
     int a = 1 + 2
     show(a)
 
 Fonctionnera mais :
 
-.. code-block::
+.. code-block::python
    int a = 1+ 2
    show(a)
 
