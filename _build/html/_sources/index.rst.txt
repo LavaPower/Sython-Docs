@@ -19,7 +19,21 @@ Sommaire :
 
 .. toctree::
    :maxdepth: 1
-   :caption: General
+   :caption: Informations
    :name: sec-general
 
    Informations/index
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Téléchargement et Installation
+   :name: sec-use
+
+   Telechargement_et_Installation/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Sython
+   :name: sec-sython
+
+   Sython/index
