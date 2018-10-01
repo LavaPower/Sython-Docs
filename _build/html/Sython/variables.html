@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="fr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Variables &mdash; Documentation Sython INDEV</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Sython
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">General</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Informations/index.html">Informations</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sython</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Variables</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Sython/variables.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="variables">
+<h1>Variables<a class="headerlink" href="#variables" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Sython est un langage fortement type ainsi vous connaissez toujours le type de votre variable. De plus, les conversions ne sont pas implicite.</p>
+<div class="section" id="declaration">
+<h2>Déclaration<a class="headerlink" href="#declaration" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Actuellement, Sython comporte 3 types basiques différents :</p>
+<ul class="simple">
+<li>int, pour les entiers</li>
+<li>float, pour les nombres à virgules</li>
+<li>str, pour les chaines de caractères</li>
+</ul>
+<p>Pour déclarer une variable, il faut suivre le paterne suivant : &lt;type&gt; &lt;nom&gt; = &lt;valeur&gt;</p>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span> <span class="n">entier</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="nb">float</span> <span class="n">flottant</span> <span class="o">=</span> <span class="mf">1.0</span>
+<span class="nb">str</span> <span class="n">texte</span> <span class="o">=</span> <span class="s2">&quot;Bonjour&quot;</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Comme vous avez pû l’apercevoir, les flottants n’utilise pas une virgule mais un point pour différencier la partie entière de la partie décimal</p>
+</div>
+</div>
+<div class="section" id="affectation">
+<h2>Affectation<a class="headerlink" href="#affectation" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Si vous voulez réaffecter une nouvelle valeur à votre variable, vous pouvez la redéclarer comme au-dessus mais il est plus économique d’utiliser le paterne suivant : &lt;nom&gt; = &lt;valeur&gt;</p>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">//</span> <span class="n">Déclaration</span>
+<span class="nb">int</span> <span class="n">entier</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="o">//</span><span class="n">Nouvelle</span> <span class="n">affection</span>
+<span class="nb">int</span> <span class="n">entier</span> <span class="o">=</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Ici, il y a aussi l’introduction des commentaires via le double symbole «&nbsp;//&nbsp;».</p>
+<p class="last">Attention, les commentaires doivent être au début de la ligne et sans indentation.</p>
+</div>
+</div>
+<div class="section" id="operations">
+<h2>Opérations<a class="headerlink" href="#operations" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Actuellement, Sython supporte 4 opérations :</p>
+<ul class="simple">
+<li>Addition : “+”</li>
+<li>Soustraction : “+”</li>
+<li>Multiplication : “*”</li>
+<li>Division : “/”</li>
+</ul>
+<p>Ces opérations sont utilisables dans la déclaration et dans l’affection. Cependant, elles sont la cible de restriction :</p>
+<ul class="simple">
+<li>Il est impossible d’appliquer une opération sur deux valeurs de type différent (Pas de conversion implicite)</li>
+<li>Il est impossible de multiplier, diviser, soustraire deux chaines de caractères. Seul l’addition est possible avec ce type.</li>
+<li>Le resultat d’une division entre deux entiers n’est pas forcément un entier et peut entrainer une perte de données s’il est enregistré dans un entier</li>
+</ul>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span> <span class="n">entier1</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="nb">int</span> <span class="n">entier2</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span>
+<span class="nb">int</span> <span class="n">entier3</span> <span class="o">=</span> <span class="n">entier1</span> <span class="o">*</span> <span class="n">entier2</span>
+<span class="nb">str</span> <span class="n">phrase</span> <span class="o">=</span> <span class="s2">&quot;Bonjour &quot;</span><span class="o">+</span><span class="s2">&quot;tout le monde&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="conversion">
+<h2>Conversion<a class="headerlink" href="#conversion" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Malgré le fait que les conversions ne peuvent être fait par Sython, vous pouvez les faire par vous même. La technique est tout simplement une déclaration avec le nouveau type.</p>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">str</span> <span class="n">nombre</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+<span class="o">//</span> <span class="s1">&#39;nombre&#39;</span> <span class="n">contient</span> <span class="s2">&quot;1&quot;</span>
+<span class="nb">int</span> <span class="n">nombre</span> <span class="o">=</span> <span class="n">nombre</span>
+<span class="o">//</span> <span class="s1">&#39;nombre&#39;</span> <span class="n">contient</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Attention, si la conversion n’est pas possible, vous aurez une erreur</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, LavaPower.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'INDEV',
+            LANGUAGE:'fr',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

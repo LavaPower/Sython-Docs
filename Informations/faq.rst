@@ -1,13 +1,13 @@
 FAQ
 ===
 
-Qu'es ce que Sython ?
----------------------
+Qu'est-ce que Sython ?
+----------------------
 
 Sython est un langage de programmation créée par LavaPower.
 
-Pourquoi avoir fait un nouveau langage de programmation ?
----------------------------------------------------------
+Pourquoi créer un nouveau langage de programmation ?
+----------------------------------------------------
 
 Le but premier n'est clairement pas de faire de la concurrence à des langages comme Python.
 
@@ -22,6 +22,7 @@ Quels sont les platformes où Sython est utilisable ?
 ----------------------------------------------------
 
 Du moment que Python est installable, Sython est utilisable. Cela inclus :
+
 - Windows
 - Linux
 - Mac
@@ -38,7 +39,3 @@ Je souhaite participer au développement de Sython, comment faire ?
 ------------------------------------------------------------------
 
 Envoyez moi un message par Discord (LavaPower#1389) pour voir ce que vous pouvez faire
-
-.. history
-.. authors
-.. license

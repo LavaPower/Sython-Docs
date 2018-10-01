@@ -12,6 +12,7 @@ Vous pouvez accéder rapidement aux différences informations via la barre de ga
 Je vous conseille daller voir la page "Informations" si vous decouvrez Sython
 
 .. note:: Il est important de ce rappeler que Sython est un projet OpenSource et développé par des personnes non professionnel.
+
           Vous pouvez, vous aussi, y participer via le github.
 
 Sommaire :

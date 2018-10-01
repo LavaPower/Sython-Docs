@@ -7,8 +7,3 @@ Informations
 
    introduction
    faq
-   
-
-.. history
-.. authors
-.. license

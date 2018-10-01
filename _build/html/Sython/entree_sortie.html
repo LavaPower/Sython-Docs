@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="fr" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Entrée - Sortie &mdash; Documentation Sython INDEV</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Recherche" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Sython
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">General</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Informations/index.html">Informations</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sython</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Entrée - Sortie</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Sython/entree_sortie.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="entree-sortie">
+<h1>Entrée - Sortie<a class="headerlink" href="#entree-sortie" title="Lien permanent vers ce titre">¶</a></h1>
+<p>C’est bien de créer des variables mais il est mieux d’afficher quelque chose nan ?</p>
+<div class="section" id="affichage">
+<h2>Affichage<a class="headerlink" href="#affichage" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’affichage est très simple : il utilise la fonction “show()” qui prend un seul paramètre.</p>
+<p>Exemples :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">Le</span> <span class="n">bon</span> <span class="n">vieux</span> <span class="s1">&#39;Hello World&#39;</span>
+<span class="n">show</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">//</span><span class="n">Ce</span> <span class="n">code</span> <span class="n">va</span> <span class="n">calculer</span> <span class="n">le</span> <span class="n">resultat</span> <span class="n">de</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span> <span class="n">puis</span> <span class="n">l</span><span class="s1">&#39;afficher</span>
+<span class="nb">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="o">//</span><span class="n">Ici</span> <span class="n">la</span> <span class="n">conversion</span> <span class="n">est</span> <span class="n">nécessaire</span> <span class="n">pour</span> <span class="n">additionner</span> <span class="n">deux</span> <span class="nb">str</span> <span class="n">entre</span> <span class="n">eux</span>
+<span class="nb">str</span> <span class="n">result</span> <span class="o">=</span> <span class="n">result</span>
+<span class="n">show</span><span class="p">(</span><span class="s2">&quot;Le résultat de 2 + 2 est &quot;</span><span class="o">+</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Comme vous avez pû le voir, les additions (et autres opérations) sont possibles dans la fonction “show()”</p>
+</div>
+</div>
+<div class="section" id="interaction">
+<h2>Interaction<a class="headerlink" href="#interaction" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Afficher des trucs est sympa mais si nous voulons récupérer des informations écrites par l’utilisateur ?</p>
+<p>C’est simple, la fonction “enter()” est faite pour vous ! Celle ci prend un seul paramètre.</p>
+<p>Exemples :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">str</span> <span class="n">name</span> <span class="o">=</span> <span class="n">enter</span><span class="p">(</span><span class="s2">&quot;Entrez votre nom : &quot;</span><span class="p">)</span>
+<span class="n">show</span><span class="p">(</span><span class="s2">&quot;Votre nom est &quot;</span><span class="o">+</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span> <span class="n">age</span> <span class="o">=</span> <span class="n">enter</span><span class="p">(</span><span class="s2">&quot;Entrez votre age : &quot;</span><span class="p">)</span>
+<span class="nb">str</span> <span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+<span class="n">show</span><span class="p">(</span><span class="s2">&quot;Vous avez &quot;</span><span class="o">+</span><span class="n">age</span><span class="o">+</span><span class="s2">&quot; ans&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Dans notre deuxième code, la variable “age” est d’abord un int. Ceci permet que l’utilisateur ne rendre que des entiers, s’il ne le fait pas, le programmation crashera.</p>
+<p class="last">Il est prévu de rajouter des fonctions pour vérifier si un str peut être convertit en entier / flottant.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, LavaPower.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'INDEV',
+            LANGUAGE:'fr',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

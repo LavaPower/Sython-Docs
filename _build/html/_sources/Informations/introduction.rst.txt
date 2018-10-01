@@ -31,7 +31,3 @@ Fonctionnera aussi mais :
    show(a)
 
 Ne fonctionnera pas (soit vous aurez une erreur, soit un comportement non prévu)
-
-.. history
-.. authors
-.. license
