@@ -9,7 +9,7 @@ Sython - Docs
 Bienvenue sur la documentation du langage Sython.
 
 Vous pouvez accéder rapidement aux différences informations via la barre de gauche via le sommaire de la page.
-Je vous conseille daller voir la page "Informations" si vous decouvrez Sython
+Je vous conseille daller voir la page "introduction" si vous decouvrez Sython
 
 .. note:: Il est important de ce rappeler que Sython est un projet OpenSource et développé par des personnes non professionnel.
 
@@ -22,18 +22,24 @@ Sommaire :
    :caption: Informations
    :name: sec-general
 
-   Informations/index
+   Informations/introduction
+   Informations/faq
    
 .. toctree::
    :maxdepth: 1
    :caption: Téléchargement et Installation
    :name: sec-use
 
-   Telechargement_et_Installation/index
+   Telechargement_et_Installation/telechargement
+   Telechargement_et_Installation/installation
 
 .. toctree::
    :maxdepth: 1
    :caption: Sython
    :name: sec-sython
 
-   Sython/index
+   Sython/variables
+   Sython/entree_sortie
+   Sython/conditions
+   Sython/boucles
+   Sython/fonctions
