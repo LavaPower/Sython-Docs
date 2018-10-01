@@ -18,7 +18,7 @@ Dans le sens où :
 
 Fonctionnera
 
-..code-block:: python
+.. code-block:: python
     
     int a = 1+2
     show(a)
