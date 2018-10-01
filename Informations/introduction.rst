@@ -16,7 +16,14 @@ Dans le sens où :
     int a = 1 + 2
     show(a)
 
-Fonctionnera mais :
+Fonctionnera
+
+..code-block:: python
+    
+    int a = 1+2
+    show(a)
+
+Fonctionnera aussi mais :
 
 .. code-block:: python
 
