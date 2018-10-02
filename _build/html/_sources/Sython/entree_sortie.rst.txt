@@ -30,7 +30,7 @@ Interaction
 
 Afficher des trucs est sympa mais si nous voulons récupérer des informations écrites par l'utilisateur ?
 
-C'est simple, la fonction 'enter()' est faite pour vous ! Celle ci prend un seul paramètre.
+C'est simple, la fonction 'enter()' est faite pour vous ! Celle ci ne prend qu'un seul paramètre.
 
 Exemples :
 

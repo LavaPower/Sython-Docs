@@ -4,7 +4,7 @@ FAQ
 Qu'est-ce que Sython ?
 ----------------------
 
-Sython est un langage de programmation créée par LavaPower.
+Sython est un langage de programmation créé par LavaPower.
 
 Pourquoi créer un nouveau langage de programmation ?
 ----------------------------------------------------

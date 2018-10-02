@@ -36,7 +36,7 @@ Exemple :
     // Déclaration
     int entier = 1
     //Nouvelle affection
-    int entier = 2
+    entier = 2
 
 .. note :: Ici, il y a aussi l'introduction des commentaires via le double symbole "//".
            
