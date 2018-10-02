@@ -96,7 +96,13 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="variables.html">Variables</a></li>
 <li class="toctree-l1"><a class="reference internal" href="entree_sortie.html">Entrée - Sortie</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Conditions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Conditions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tests">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#if">If</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#elif">Elif</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#else">Else</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="boucles.html">Boucles</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fonctions.html">Fonctions</a></li>
 </ul>
@@ -165,7 +171,95 @@
             
   <div class="section" id="conditions">
 <h1>Conditions<a class="headerlink" href="#conditions" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Les conditions ne sont pas encore codées dans le langage mais prévues dans un futur proche !</p>
+<div class="section" id="tests">
+<h2>Tests<a class="headerlink" href="#tests" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Avant de créer des conditions avec des “if”… Il faut d’abord créer des tests.</p>
+<p>Les tests sont des objets dont on veut savoir s’il est vrai ou pas.</p>
+<p>En Sython, ces tests peuvent être :</p>
+<ul class="simple">
+<li>Une simple valeur / variable -&gt; Il suffit de mettre la valeur ou le nom de la variable</li>
+<li>Une égalité entre deux valeurs -&gt; If suffit de suivre ce paterne : “&lt;valeur/variable&gt; == &lt;valeur/variable&gt;”</li>
+<li>Une inégalité entre valeurs -&gt; Il suffit d’utiliser des signes “&lt;=” “&gt;=” “&lt;” “&gt;” dans le parterne du haut à la place de “==”</li>
+</ul>
+</div>
+<div class="section" id="if">
+<h2>If<a class="headerlink" href="#if" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Commençons par la condition la plus simple : “si &lt;…&gt; alors &lt;…&gt;”. En Sython, la synthaxe se démarque de Python avec l’utilisation d’accolade :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="o">&lt;</span><span class="n">test</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Le placement des accolades est à respecter, de plus, l’indentation ne peut se faire que via des espaces pour l’instant.</p>
+</div>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">{</span>
+    <span class="n">show</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ce code affichera “a = 1”</p>
+</div>
+</div>
+<div class="section" id="elif">
+<h2>Elif<a class="headerlink" href="#elif" title="Lien permanent vers ce titre">¶</a></h2>
+<p>En complémentarité du “if”, ce trouve “elif”. Celui-ci correspond en français à “sinon si &lt;…&gt; alors &lt;…&gt;” et s’utilise comme le if.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="o">&lt;</span><span class="n">test</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span>
+<span class="p">}</span>
+<span class="k">elif</span> <span class="o">&lt;</span><span class="n">test</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span> <span class="n">age</span> <span class="o">=</span> <span class="n">enter</span><span class="p">(</span><span class="s2">&quot;Entrez votre age : &quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">age</span> <span class="o">&gt;</span> <span class="mi">18</span> <span class="p">{</span>
+    <span class="n">show</span><span class="p">(</span><span class="s2">&quot;Vous êtes majeur depuis au moins un an !&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="k">elif</span> <span class="n">age</span> <span class="o">==</span> <span class="mi">18</span> <span class="p">{</span>
+    <span class="n">show</span><span class="p">(</span><span class="s2">&quot;Vous êtes majeur depuis moins d&#39;une année ! Bravo à vous !&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Attention : Dans ce code, si l’utilisateur entre un nombre inférieur à 18, rien ne s’affichera mais nous allons y remédier.</p>
+</div>
+</div>
+<div class="section" id="else">
+<h2>Else<a class="headerlink" href="#else" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le dernier du trio gagnant est le “else”. Il correspond à “sinon” et lui n’a pas de test, il sera vrai si les tests du haut sont faux.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="o">&lt;</span><span class="n">test</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span>
+<span class="p">}</span>
+<span class="k">elif</span> <span class="o">&lt;</span><span class="n">test</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span>
+<span class="p">}</span>
+<span class="k">else</span> <span class="p">{</span>
+    <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Exemple :</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">int</span> <span class="n">age</span> <span class="o">=</span> <span class="n">enter</span><span class="p">(</span><span class="s2">&quot;Entrez votre age : &quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">age</span> <span class="o">&gt;</span> <span class="mi">18</span> <span class="p">{</span>
+    <span class="n">show</span><span class="p">(</span><span class="s2">&quot;Vous êtes majeur depuis au moins un an !&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="k">elif</span> <span class="n">age</span> <span class="o">==</span> <span class="mi">18</span> <span class="p">{</span>
+    <span class="n">show</span><span class="p">(</span><span class="s2">&quot;Vous êtes majeur depuis moins d&#39;une année ! Bravo à vous !&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="k">else</span> <span class="p">{</span>
+    <span class="n">show</span><span class="p">(</span><span class="s2">&quot;Vous êtes mineur, profitez !&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
